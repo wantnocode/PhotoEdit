@@ -10,10 +10,10 @@ add Watermark to images.(add background or text to images.)
 
 
 ## Steps
-git clone xx
+  1. git clone [project]
 
-cd PhotoEdit
+  2. cd PhotoEdit
+  
+  3. npm install
 
-npm install
-
-npm run start --text=xxx --mode=cover //Text is the drawn text content, Draw background when model is `cover`
+  4. npm run start --text=xxx --mode=cover //Text is the drawn text content, Draw background when model is `cover`
