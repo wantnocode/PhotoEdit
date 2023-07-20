@@ -1,0 +1,17 @@
+{
+  "name": "photoedit",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js --mode=$pm_config_mode --text=$npm_config_text"
+  },
+  "author": "wlove",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "sharp": "^0.32.3"
+  }
+}
